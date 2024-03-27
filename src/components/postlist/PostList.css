@@ -1,0 +1,134 @@
+.post-list {
+  @apply flex flex-col items-center p-8;
+}
+
+.post-form {
+  @apply flex flex-col items-center mb-8 border border-solid border-gray-300 p-4 rounded-md;
+}
+
+.post-form textarea {
+  @layer w-full p-2 border-none rounded-0.5rem bg-white text-gray-700 resize-none mb-4;
+}
+
+.post-form button {
+  @layer p-2 border-none rounded-0.5rem bg-gray-700 text-white cursor-pointer;
+}
+
+.post-container {
+  @apply flex flex-col items-center w-full max-w-screen-md;
+}
+
+.post-item {
+  @apply relative flex flex-col items-center mb-8 border border-solid border-gray-300 p-4 rounded-md w-full;
+}
+
+.post-title {
+  @apply text-xl font-bold mb-4;
+}
+
+.post-content {
+  @apply text-base mb-4;
+}
+
+.post-author {
+  @apply text-sm text-gray-700;
+}
+
+.delete-button {
+  @layer absolute top-0 right-0 p-1 border-none rounded-0.3rem bg-red-500 text-white cursor-pointer text-sm;
+}
+
+
+/*
+.post-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.post-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  color: #333;
+  resize: none;
+  margin-bottom: 1rem;
+}
+
+.post-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.post-item {
+  position: relative; 
+  align-items:center;
+  width:100%
+  
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.post-content {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-author {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 0.3rem 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #ff4d4f;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+*/

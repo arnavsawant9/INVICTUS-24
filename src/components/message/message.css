@@ -1,0 +1,41 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply font-sans;
+  margin: 0;
+  padding: 0;
+  @apply flex flex-col items-center justify-center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  @apply text-gray-700;
+}
+
+div {
+  @apply mb-4;
+}
+
+label {
+  @apply font-bold;
+}
+
+input {
+  @apply py-2 px-4 mr-2;
+}
+
+button {
+  @apply py-2 px-4 cursor-pointer;
+}
+
+ul {
+  @apply list-none p-0;
+}
+
+li {
+  @apply mb-4;
+}

@@ -1,0 +1,100 @@
+ .navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    width: 20px;
+    height: 20px;
+    padding:5px;
+  }
+  
+  .search-bar{
+    //flex: 1;
+    width: 6 rem;
+    padding: 10px;
+  }
+ 
+  
+  .search-bar input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+  } */
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  padding:10px;
+  width: 60px;
+  height: 60px;
+}
+
+.search-bar {
+  flex: 0.8;
+  width: 200px;
+  padding: 10px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  color: #333;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+ 
+
+ /* Navbar.css */
+
+/*
+.navbar {
+  @apply flex justify-between items-center p-4 bg-gray-800 text-white;
+}
+
+.logo {
+  @apply p-2 w-16 h-16;
+}
+
+.search-bar {
+  @apply flex-1 w-48 p-2;
+}
+
+.search-bar input {
+  @layer w-full p-2 border-none border-radius-0.5rem bg-white text-gray-700;
+}
+
+.nav-links a {
+  @apply text-white no-underline mx-4;
+}
+
+*/
